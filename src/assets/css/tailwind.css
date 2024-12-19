@@ -1494,8 +1494,8 @@ body {
     line-height: 2rem;
   }
 
-  .md\:text-\[53px\] {
-    font-size: 53px;
+  .md\:text-\[50px\] {
+    font-size: 50px;
   }
 
   .md\:text-lg {
@@ -1506,18 +1506,6 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-\[50px\] {
-    font-size: 50px;
-  }
-
-  .md\:text-\[5px\] {
-    font-size: 5px;
-  }
-
-  .md\:text-\[52px\] {
-    font-size: 52px;
   }
 }
 
