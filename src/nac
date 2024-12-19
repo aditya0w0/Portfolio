@@ -1,0 +1,9 @@
+                        <div class="w-full self-end px-4 lg:w-1/2">
+                            <div class="relative mt-10 lg:right-0 lg:mt-16"></div>
+                            <img src="/src/images/yae.png" alt="yaemiko" class="relative z-10 mx-auto max-w-full">
+                            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:-translate-x-16 md:scale-125">
+                                <svg width="600" height="950" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#FFD6E8" d="M43.3,-23.5C56.5,-2.3,67.6,21.6,60.1,36.9C52.5,52.2,26.3,58.9,2.3,57.6C-21.7,56.3,-43.4,46.9,-54,29.9C-64.7,12.8,-64.2,-12,-53.4,-31.9C-42.6,-51.8,-21.3,-66.8,-3.1,-65C15.1,-63.2,30.2,-44.7,43.3,-23.5Z" transform="translate(100 100)" />
+                                  </svg>
+                            </span>
+                        </div>
