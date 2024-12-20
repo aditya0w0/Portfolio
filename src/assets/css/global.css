@@ -10,14 +10,17 @@ body {
   0% {
     background-position: 0% 50%;
   }
-  100% {
+  50% {
     background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
 .animate-gradient {
   background-size: 200% 200%;
-  animation: gradientAnimation 5s ease infinite;
+  animation: gradientAnimation 10s ease infinite;
 }
 
 @font-face {

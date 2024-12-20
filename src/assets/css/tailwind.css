@@ -663,6 +663,10 @@ video {
   margin-right: auto;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -733,10 +737,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -860,6 +860,24 @@ video {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradientAnimation 10s ease infinite;
 }
 
 .cursor-pointer {
@@ -1169,10 +1187,6 @@ video {
   font-family: Clash Display, sans-serif;
 }
 
-.font-poppins {
-  font-family: Poppins, sans-serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1240,10 +1254,6 @@ video {
 
 .leading-relaxed {
   line-height: 1.625;
-}
-
-.leading-tight {
-  line-height: 1.25;
 }
 
 .text-dark {
@@ -1362,14 +1372,18 @@ body {
     background-position: 0% 50%;
   }
 
-  100% {
+  50% {
     background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
 }
 
 .animate-gradient {
   background-size: 200% 200%;
-  animation: gradientAnimation 5s ease infinite;
+  animation: gradientAnimation 10s ease infinite;
 }
 
 @font-face {
@@ -1562,10 +1576,6 @@ body {
     margin-bottom: 2.5rem;
   }
 
-  .md\:mb-3 {
-    margin-bottom: 0.75rem;
-  }
-
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -1604,8 +1614,9 @@ body {
     line-height: 2rem;
   }
 
-  .md\:text-\[50px\] {
-    font-size: 50px;
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:text-lg {
@@ -1616,16 +1627,6 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 

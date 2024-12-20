@@ -30,6 +30,16 @@ module.exports = {
       screens: {
         "2xl": "1320px",
       },
+      keyframes: {
+        gradientAnimation: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
+      },
+      animation: {
+        gradient: 'gradientAnimation 10s ease infinite',
+      },
     },
   },
   plugins: [],
