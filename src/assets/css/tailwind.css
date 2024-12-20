@@ -735,6 +735,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1161,6 +1165,14 @@ video {
   text-align: center;
 }
 
+.font-clash {
+  font-family: Clash Display, sans-serif;
+}
+
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1360,6 +1372,104 @@ body {
   animation: gradientAnimation 5s ease infinite;
 }
 
+@font-face {
+  font-family: 'ClashDisplay-Extralight';
+
+  src: url('../fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Extralight.woff') format('woff'),
+       url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
+
+  font-weight: 200;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Light';
+
+  src: url('../fonts/ClashDisplay-Light.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Light.woff') format('woff'),
+       url('../fonts/ClashDisplay-Light.ttf') format('truetype');
+
+  font-weight: 300;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+
+  src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Regular.woff') format('woff'),
+       url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+
+  src: url('../fonts/ClashDisplay-Medium.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Medium.woff') format('woff'),
+       url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
+
+  font-weight: 500;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+
+  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+
+  font-weight: 600;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+
+  src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Bold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Variable';
+
+  src: url('../fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Variable.woff') format('woff'),
+       url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+
+  font-weight: 200 700;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
 @keyframes pulse {
   50% {
     opacity: .5;
@@ -1506,6 +1616,16 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 

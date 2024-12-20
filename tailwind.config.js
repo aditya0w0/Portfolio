@@ -9,6 +9,11 @@ module.exports = {
       padding: "16px",
     },
     extend: {
+      fontFamily:{
+        inter: ["Inter", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        clash: ['Clash Display', 'sans-serif'],
+      },
       colors: {
         elysia:{
           light: '#FFD6E8',
