@@ -7,3 +7,127 @@
                                   </svg>
                             </span>
                         </div>
+
+
+desc
+
+<!--Star Rail Fandom-->
+            <div class="w-96 flex-shrink-0 flex flex-col">
+              <div
+                class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg flex flex-col h-full"
+              >
+                <div class="relative inline-block">
+                  <img
+                    src="./src/assets/images/hero.jpg"
+                    alt="Programming"
+                    class="w-full"
+                  />
+                  <span
+                    class="absolute left-2 top-2 bg-white/30 rounded-full backdrop-blur-sm px-3 py-1 text-xs font-semibold flex items-center space-x-1"
+                  >
+                    <i class="si si-react si--color text-lg"></i>
+                    <i class="si si-tailwindcss si--color text-lg"></i>
+                    <i class="si si-firebase si--color text-lg"></i>
+                  </span>
+                </div>
+
+                <div class="py-8 px-6 flex-grow">
+                  <h3>
+                    <a
+                      href="#"
+                      class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
+                    >
+                      Waivers
+                    </a>
+                  </h3>
+                  <p class="mb-6 text-base font-medium text-secondary">
+                    Where 2D becomes reality. Immerse yourself in a curated
+                    gallery where anime characters transcend the screen.
+                    Experience the world of your favorite waifus like never
+                    before.
+                  </p>
+                  <a
+                    href="#"
+                    class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
+                  >
+                    Baca Selengkapnya
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--Arc Studi-->
+            <div class="w-96 flex-shrink-0 flex flex-col">
+              <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg flex flex-col h-full">
+                <div class="inline-block relative">
+                  <img
+                    src="./src/assets/images/hero.jpg"
+                    alt="Programming"
+                    class="w-full"
+                  />
+                  <span
+                    class="left-2 top-2 absolute flex items-center rounded-full backdrop-blur-sm bg-white/30 px-3 py-1 text-xs font-semibold space-x-1"
+                  >
+                    <i class="si si-android si--color text-lg"></i>
+                    <i class="si si-kotlin si--color text-lg"></i>
+                  </span>
+                </div>
+
+                <div class="py-8 px-6 flex-grow">
+                  <h3>
+                    <a
+                      href="#"
+                      class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
+                      >Arc Study</a
+                    >
+                  </h3>
+                  <p class="mb-6 text-base font-medium text-secondary">
+                    Learn smarter, not harder. Designed to empower your academic
+                    journey. Intuitive features that unlock your potential.
+                  </p>
+                  <a
+                    href="#"
+                    class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
+                    >Baca Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Study App -->
+            <div class="w-96 flex-shrink-0 flex flex-col">
+              <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg flex flex-col h-full">
+                <div class="inline-block relative">
+                  <img
+                    src="./src/assets/images/hero.jpg"
+                    alt="Programming"
+                    class="w-full"
+                  />
+                  <span
+                    class="absolute top-2 left-2 rounded-full bg-white/30 backdrop-blur-sm px-3 py-1 text-xs font-semibold flex items-center space-x-1"
+                  >
+                    <i class="si si-flutter si--color text-lg"></i>
+                    <i class="si si-firebase si--color text-lg"></i>
+                  </span>
+                </div>
+
+                <div class="py-8 px-6 flex-grow">
+                  <h3>
+                    <a
+                      href="#"
+                      class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
+                      >Zenify</a
+                    >
+                  </h3>
+                  <p class="mb-6 text-base font-medium text-secondary">
+                    Find your inner peace. A digital sanctuary for mindfulness
+                    in a chaotic world. Zenify is your companion on the journey
+                    to tranquility.
+                  </p>
+                  <a
+                    href="#"
+                    class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
+                    >Baca Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            

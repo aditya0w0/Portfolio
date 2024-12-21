@@ -856,6 +856,10 @@ video {
   flex-shrink: 0;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
@@ -1442,11 +1446,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Extralight';
+  font-family: "ClashDisplay-Extralight";
 
-  src: url('../fonts/ClashDisplay-Extralight.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Extralight.woff') format('woff'),
-       url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Extralight.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Extralight.woff") format("woff"),
+    url("../fonts/ClashDisplay-Extralight.ttf") format("truetype");
 
   font-weight: 200;
 
@@ -1456,11 +1461,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Light';
+  font-family: "ClashDisplay-Light";
 
-  src: url('../fonts/ClashDisplay-Light.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Light.woff') format('woff'),
-       url('../fonts/ClashDisplay-Light.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Light.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Light.woff") format("woff"),
+    url("../fonts/ClashDisplay-Light.ttf") format("truetype");
 
   font-weight: 300;
 
@@ -1470,11 +1476,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Regular';
+  font-family: "ClashDisplay-Regular";
 
-  src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Regular.woff') format('woff'),
-       url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Regular.woff") format("woff"),
+    url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -1484,11 +1491,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Medium';
+  font-family: "ClashDisplay-Medium";
 
-  src: url('../fonts/ClashDisplay-Medium.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Medium.woff') format('woff'),
-       url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Medium.woff") format("woff"),
+    url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -1498,11 +1506,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Semibold';
+  font-family: "ClashDisplay-Semibold";
 
-  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
-       url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Semibold.woff") format("woff"),
+    url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
 
   font-weight: 600;
 
@@ -1512,11 +1521,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Bold';
+  font-family: "ClashDisplay-Bold";
 
-  src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Bold.woff') format('woff'),
-       url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Bold.woff") format("woff"),
+    url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -1526,11 +1536,12 @@ body {
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Variable';
+  font-family: "ClashDisplay-Variable";
 
-  src: url('../fonts/ClashDisplay-Variable.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Variable.woff') format('woff'),
-       url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+  src:
+    url("../fonts/ClashDisplay-Variable.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Variable.woff") format("woff"),
+    url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
 
   font-weight: 200 700;
 
@@ -1571,6 +1582,10 @@ body {
 .hover\:grayscale-0:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.focus\:scroll-auto:focus {
+  scroll-behavior: auto;
 }
 
 .focus\:outline-none:focus {
