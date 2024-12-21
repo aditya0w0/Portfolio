@@ -12,7 +12,7 @@ Hey there! This is my very first attempt at building a personal portfolio websit
 ---
 
 ### ⏳ Time Spent:
-![WakaTime](https://wakatime.com/badge/user/aditya0w0)
+![WakaTime](https://wakatime.com/badge/user/76364797-6303-4342-9567-48d03e3a7fa3.svg)
 
 ---
 

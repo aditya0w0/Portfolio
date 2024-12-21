@@ -2,7 +2,6 @@
     // General Appearance
     "workbench.colorTheme": "Default Dark+", // Sesuaikan tema favoritmu
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.activityBar.visible": true,
     "workbench.sideBar.location": "left",
     "workbench.layoutControl.enabled": false,
     "workbench.editorAssociations": {
