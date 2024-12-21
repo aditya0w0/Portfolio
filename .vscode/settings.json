@@ -1,4 +1,74 @@
 {
-    "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+    // General Appearance
+    "workbench.colorTheme": "Default Dark+", // Sesuaikan tema favoritmu
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    },
+
+    // Sidebar and Panel Layout
+    "workbench.sideBar.width": 200, // Lebar sidebar default
+    "workbench.activityBar.location": "top", // Aktivitas bar pindah ke atas untuk menghemat ruang
+    "workbench.view.alwaysShowHeaderActions": false, // Header sidebar dibuat minimal
+    "explorer.compactFolders": true, // Folder explorer tampil lebih compact
+    "explorer.openEditors.visible": 0, // Sembunyikan tab "Open Editors" kalau gak dibutuhin
+
+    // Editor Settings
+    "editor.fontFamily": "Fira Code, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true, // Untuk developer yang suka ligatures (opsional)
+    "editor.fontSize": 14, // Ukuran font ideal
+    "editor.lineHeight": 1.6,
+    "editor.letterSpacing": 0.5,
+    "editor.wordWrap": "on", // Membungkus teks di layar
+    "editor.minimap.enabled": false, // Matikan minimap biar workspace lebih luas
+    "editor.renderWhitespace": "boundary", // Tampilkan whitespace hanya di boundary
+    "editor.renderControlCharacters": false, // Matikan tampilan control character
+    "editor.tabSize": 2, // Tab size lebih kecil buat Tailwind dan JavaScript
+    "editor.insertSpaces": true, // Gunakan spaces, bukan tabs
+
+    // Terminal Settings
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.localEchoLatencyThreshold": -1,
+    "terminal.integrated.localEchoEnabled": "off",
+
+    // Git and Code Management
+    "git.autofetch": true, // Otomatis fetch Git
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    // Miscellaneous
+    "files.autoSave": "afterDelay", // Simpan otomatis
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/build": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/build": true
+    },
+
+    // Dart & Flutter Specific Settings
+    "[dart]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "dart.flutterHotReloadOnSave": true,
+    "dart.lineLength": 80,
+
+    // Tailwind CSS Optimization
+    "tailwindCSS.experimental.configFile": "./tailwind.config.js",
+    "css.validate": false,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+        "javascript": "javascript",
+        "typescript": "typescript",
+        "javascriptreact": "javascriptreact",
+        "typescriptreact": "typescriptreact"
+    }
 }

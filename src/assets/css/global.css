@@ -23,6 +23,14 @@ body {
   animation: gradientAnimation 10s ease infinite;
 }
 
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
 @font-face {
   font-family: 'ClashDisplay-Extralight';
   src: url('../fonts/ClashDisplay-Extralight.woff2') format('woff2'),
